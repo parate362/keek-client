@@ -4,8 +4,10 @@ import Login from '../Components/Login';
 import ForgetPass from '../Components/ForgetPass';
 import LoginMobile from '../Components/LoginMobile';
 import SignUp from '../Components/SignUp';
+
 import SignUpMobile from '../Components/SignUpMobile';
 import Home from '../Components/Home';
+import ChangePass from '../Components/ChangePass';
 
 
 const Routing = () => {

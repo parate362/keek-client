@@ -6,7 +6,7 @@ import { Key } from "@mui/icons-material";
 import { BsEyeSlash } from "react-icons/bs";
 import { IoEyeOutline } from "react-icons/io5";
 
-const SignUpMobile = () => {
+const ChangePass = () => {
   let slides = [
     "https://www.searchenginejournal.com/wp-content/uploads/2022/09/influencer-marketing2-631aeb9e3273a-sej.png",
     "https://cdn.i.haymarketmedia.asia/?n=campaign-india%2Fcontent%2Finfluencer+india.jpg&h=570&w=855&q=100&v=20170226&c=1",
@@ -109,4 +109,4 @@ const SignUpMobile = () => {
   );
 };
 
-export default SignUpMobile;
+export default ChangePass;

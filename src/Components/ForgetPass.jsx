@@ -6,7 +6,7 @@ import { IoEyeOutline } from "react-icons/io5";
 import { BsEyeSlash } from "react-icons/bs";
 import { FiKey } from "react-icons/fi";
 
-const SignUpMobile = () => {
+const ForgetPass = () => {
   const [mobileNumber, setMobileNumber] = useState("");
   const [otp, setOtp] = useState("");
   const [showOtp, setShowOtp] = useState(false);
@@ -146,4 +146,4 @@ const SignUpMobile = () => {
   );
 };
 
-export default SignUpMobile;
+export default ForgetPass;
