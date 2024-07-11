@@ -19,6 +19,7 @@ const Routing = () => {
         <Route path="/Login_Mobile" element={<LoginMobile />} />
         <Route path="/SignUp_Mobile" element={<SignUpMobile />} />
         <Route path="/home" element={<Home/>} />
+        <Route path="/change_pass" element={<ChangePass />} />
     
 
       </Routes>
