@@ -66,7 +66,7 @@ const MobileSignUpPage = () => {
     }
 
     try {
-      const response = await axios.post("https://keek-server.vercel.app/api/user/send-otp", {
+      const response = await axios.post("https://keek-server.vercel.app/api/user/send-mobile-otp", {
         name,
         mobileNumber: selectedCode + mobileNumber,
       });
