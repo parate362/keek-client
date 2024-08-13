@@ -124,7 +124,7 @@ const VerifyNumber = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6 h-[55px] w-[280px] justify-start items-center gap-5 inline-flex">
+      <div className="mt-6 h-[55px] justify-start items-center gap-5 inline-flex">
         {otp.map((value, index) => (
           <input
             key={index}
@@ -151,10 +151,10 @@ const VerifyNumber = () => {
           </button>
         </div>
       </div>
-      <div 
-       onClick={handleVerify}
-      className="self-stretch h-[50px] mt-5 px-4 bg-[#0066ff] rounded-[10px] justify-center items-center gap-2 inline-flex">
-        <button className="items-center mx-40 text-center text-white text-lg font-normal  leading-[18px]">
+      <div className="self-stretch h-[50px] mt-5 px-4 bg-[#0066ff] rounded-[10px] justify-center items-center gap-2 inline-flex">
+        <button
+          onClick={handleVerify}
+         className="items-center mx-40 text-center text-white text-lg font-normal  leading-[18px]">
           Create Account
         </button>
       </div>
