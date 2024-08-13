@@ -19,19 +19,19 @@ export default function ImagePanel({ autoSlide = true, autoSlideInterval = 5000 
   });
 
   return (
-    <div className="overflow-hidden relative">
+    <div className="overflow-hidden fixed h-screen max-h-[895px]">
       <div
-        className={`flex transition ease-out duration-40 w-[864px] h-[975px]`}
+        className={`flex transition ease-out duration-40 w-[850px] max-h-screen`}
         style={{
           transform: `translateX(-${curr * 100}%)`,
         }}
       >
         {slides.map((s, i) => {
-          return <img key={i} src={s} className={"object-cover"} />;
+          return <img key={i} src={s} className={"object-fill"} />;
         })}
       </div>
 
-      <div className="absolute bottom-12 left-16 w-[600px]">
+      <div className="absolute bottom-2 left-16 w-[600px]">
         <h1 className="font-greatMango text-white text-5xl tracking-wider leading-[120%]">
           POWERED BY CREATORS AROUND THE WORLD
         </h1>

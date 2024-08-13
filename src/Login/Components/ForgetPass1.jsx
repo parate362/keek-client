@@ -66,7 +66,7 @@ const ForgetPass1 = () => {
     <div>
       <div className="px-[35px]">
         <Link to={"/"}>
-          <div className="flex item-center mt-[50px]">
+          <div className=" flex item-center mt-[50px] ">
             <h2 className="text-[#000000] text-[16px]">
               <FiChevronLeft className="inline-block mb-0.5 mr-1" />
               Back
@@ -77,8 +77,8 @@ const ForgetPass1 = () => {
         <div className="w-[500px] h-[400px] text-black flex flex-col space-y-9 pt-[111px]">
           <p className="text-[#000000] text-[34px]">
             Forgot Password?
-            <p className="text-[#8E9090] text-base">
-              No worries, We'll send you reset instructions
+            <p className="text-[#8E9090] text-base ">
+              No worries, We’ll send you reset instructions
             </p>
           </p>
           <form onSubmit={handleSubmit} className="flex flex-col">
@@ -92,18 +92,18 @@ const ForgetPass1 = () => {
               value={contactInfo}
               onChange={(e) => setContactInfo(e.target.value)}
             />
-            {error && <p className="text-red-500 mt-2">{error}</p>}
-            {success && <p className="text-green-500 mt-2">{success}</p>}
-            <div className="flex flex-col">
-              <div className="flex flex-col bg-[#0066FF] text-center rounded-[10px] border-[#363939] my-[16px]">
-                <button
-                  type="submit"
-                  className="text-[#FFFFFF] text-center w-full px-[16px] h-[50px] rounded-md gap-[8px]"
-                >
+         
+          <div className="flex flex-col ">
+            <div className="flex flex-col bg-[#0066FF] text-center rounded-[10px] border-[#363939] my-[16px]">
+              
+                <button 
+                type='submit'
+                className="text-[#FFFFFF] text-center w-full px-[16px] h-[50px] rounded-md gap-[8px] ">
                   Send 4-digit code
+                
                 </button>
-              </div>
             </div>
+          </div>
           </form>
         </div>
       </div>
