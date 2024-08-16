@@ -133,7 +133,7 @@ const LoginPage = () => {
             Don’t have an account? &nbsp;
             <a href="https://keek-influencer.vercel.app/">
               <span className="text-[#06F]">
-                Brand page
+                Influencers page
                 <RiArrowRightUpLine className="inline-block text-lg text-[#06F]" />
               </span>
             </a>
