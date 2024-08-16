@@ -129,12 +129,14 @@ const LoginPage = () => {
               <span className="text-[#06F]">Sign up</span>
             </Link>
           </div>
-          <div className="text-center">
-            Don’t have an account?{" "}
-            <span className="text-[#06F]">
-              Influencers page
-              <RiArrowRightUpLine className="inline-block text-lg text-[#06F]" />
-            </span>
+          <div className="text-center pb-[21px]">
+            Don’t have an account? &nbsp;
+            <a href="https://keek-influencer.vercel.app/">
+              <span className="text-[#06F]">
+                Brand page
+                <RiArrowRightUpLine className="inline-block text-lg text-[#06F]" />
+              </span>
+            </a>
           </div>
         </div>
       </div>
