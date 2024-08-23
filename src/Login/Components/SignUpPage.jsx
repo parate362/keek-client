@@ -23,7 +23,7 @@ const SignUpPage = () => {
     try {
       const response = await axios.post("https://keek-server.vercel.app/api/user/register-email", { name, email, password });
       console.log(response.data);
-      if (response.data.status) {
+      if (response.data.status) { 
         navigate("/");
       } else {
         setError(response.data.message);
@@ -76,6 +76,8 @@ const SignUpPage = () => {
                 type="text"
                 placeholder="John.doe@gmail.com"
                 value={name}
+                name="name"
+                id="name"
                 onChange={(e) => setName(e.target.value)}
                 required
                
